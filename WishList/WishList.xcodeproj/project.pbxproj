@@ -13,6 +13,10 @@
 		FB94339F27358EDC004B1547 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB94339E27358EDC004B1547 /* Preview Assets.xcassets */; };
 		FB9433A127358EDC004B1547 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9433A027358EDC004B1547 /* Persistence.swift */; };
 		FB9433A427358EDC004B1547 /* WishList.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FB9433A227358EDC004B1547 /* WishList.xcdatamodeld */; };
+		FB9433AD273590DD004B1547 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9433AC273590DD004B1547 /* LoginView.swift */; };
+		FB9433B027359109004B1547 /* WishListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9433AF27359109004B1547 /* WishListView.swift */; };
+		FB9433B327359126004B1547 /* AddItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9433B227359126004B1547 /* AddItemView.swift */; };
+		FB9433B727359150004B1547 /* WishListCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9433B627359150004B1547 /* WishListCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +27,10 @@
 		FB94339E27358EDC004B1547 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FB9433A027358EDC004B1547 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		FB9433A327358EDC004B1547 /* WishList.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WishList.xcdatamodel; sourceTree = "<group>"; };
+		FB9433AC273590DD004B1547 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		FB9433AF27359109004B1547 /* WishListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishListView.swift; sourceTree = "<group>"; };
+		FB9433B227359126004B1547 /* AddItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemView.swift; sourceTree = "<group>"; };
+		FB9433B627359150004B1547 /* WishListCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishListCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +63,7 @@
 		FB94339627358EDA004B1547 /* WishList */ = {
 			isa = PBXGroup;
 			children = (
+				FB9433AA27358FDD004B1547 /* View */,
 				FB94339727358EDA004B1547 /* WishListApp.swift */,
 				FB94339927358EDA004B1547 /* ContentView.swift */,
 				FB94339B27358EDC004B1547 /* Assets.xcassets */,
@@ -71,6 +80,49 @@
 				FB94339E27358EDC004B1547 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FB9433AA27358FDD004B1547 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FB9433B42735912E004B1547 /* Components */,
+				FB9433B12735910F004B1547 /* AddItem Screen */,
+				FB9433AE273590E2004B1547 /* WishList Screen */,
+				FB9433AB273590BF004B1547 /* Login Screen */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FB9433AB273590BF004B1547 /* Login Screen */ = {
+			isa = PBXGroup;
+			children = (
+				FB9433AC273590DD004B1547 /* LoginView.swift */,
+			);
+			path = "Login Screen";
+			sourceTree = "<group>";
+		};
+		FB9433AE273590E2004B1547 /* WishList Screen */ = {
+			isa = PBXGroup;
+			children = (
+				FB9433AF27359109004B1547 /* WishListView.swift */,
+				FB9433B627359150004B1547 /* WishListCard.swift */,
+			);
+			path = "WishList Screen";
+			sourceTree = "<group>";
+		};
+		FB9433B12735910F004B1547 /* AddItem Screen */ = {
+			isa = PBXGroup;
+			children = (
+				FB9433B227359126004B1547 /* AddItemView.swift */,
+			);
+			path = "AddItem Screen";
+			sourceTree = "<group>";
+		};
+		FB9433B42735912E004B1547 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,8 +197,12 @@
 			files = (
 				FB9433A427358EDC004B1547 /* WishList.xcdatamodeld in Sources */,
 				FB9433A127358EDC004B1547 /* Persistence.swift in Sources */,
+				FB9433B327359126004B1547 /* AddItemView.swift in Sources */,
 				FB94339A27358EDA004B1547 /* ContentView.swift in Sources */,
+				FB9433AD273590DD004B1547 /* LoginView.swift in Sources */,
 				FB94339827358EDA004B1547 /* WishListApp.swift in Sources */,
+				FB9433B727359150004B1547 /* WishListCard.swift in Sources */,
+				FB9433B027359109004B1547 /* WishListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
