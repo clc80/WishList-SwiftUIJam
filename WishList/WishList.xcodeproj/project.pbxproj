@@ -17,6 +17,7 @@
 		FB9433B027359109004B1547 /* WishListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9433AF27359109004B1547 /* WishListView.swift */; };
 		FB9433B327359126004B1547 /* AddItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9433B227359126004B1547 /* AddItemView.swift */; };
 		FB9433B727359150004B1547 /* WishListCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9433B627359150004B1547 /* WishListCard.swift */; };
+		FB9433BA27361AC9004B1547 /* WishListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9433B927361AC9004B1547 /* WishListItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		FB9433AF27359109004B1547 /* WishListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishListView.swift; sourceTree = "<group>"; };
 		FB9433B227359126004B1547 /* AddItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemView.swift; sourceTree = "<group>"; };
 		FB9433B627359150004B1547 /* WishListCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishListCard.swift; sourceTree = "<group>"; };
+		FB9433B927361AC9004B1547 /* WishListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishListItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 		FB94339627358EDA004B1547 /* WishList */ = {
 			isa = PBXGroup;
 			children = (
+				FB9433B827361AB6004B1547 /* Model */,
 				FB9433AA27358FDD004B1547 /* View */,
 				FB94339727358EDA004B1547 /* WishListApp.swift */,
 				FB94339927358EDA004B1547 /* ContentView.swift */,
@@ -123,6 +126,14 @@
 			children = (
 			);
 			path = Components;
+			sourceTree = "<group>";
+		};
+		FB9433B827361AB6004B1547 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FB9433B927361AC9004B1547 /* WishListItem.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -195,6 +206,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB9433BA27361AC9004B1547 /* WishListItem.swift in Sources */,
 				FB9433A427358EDC004B1547 /* WishList.xcdatamodeld in Sources */,
 				FB9433A127358EDC004B1547 /* Persistence.swift in Sources */,
 				FB9433B327359126004B1547 /* AddItemView.swift in Sources */,
