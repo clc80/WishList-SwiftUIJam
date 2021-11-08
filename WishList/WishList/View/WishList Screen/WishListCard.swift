@@ -47,6 +47,6 @@ struct WishListCard: View {
 
 struct WishListCard_Previews: PreviewProvider {
     static var previews: some View {
-        WishListCard(wishListItem: WishListItem(title: "Mac Book Pro", description: "With M1 Chip", image: "M1_Mac_Book_Pro"))
+        WishListCard(wishListItem: WishListItem(id: "3WzcPYRYAfb2pa8Yc4pgMv", title: "Mac Book Pro", description: "With M1 Chip", image: "M1_Mac_Book_Pro"))
     }
 }
